@@ -32,4 +32,22 @@ node('master') {
   stage('cleanup') {
       echo "nothing to compile for hello.sh..."
     }
+  stage('Deploy latest build') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Install Depedancy') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Health Checks') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Integration Tests') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Security Testing') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Upload to Ops Area') {
+      echo "nothing to compile for hello.sh..."
+    }
 }
