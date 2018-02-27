@@ -54,7 +54,7 @@ stage('Integration Testing') {
 */
 
 node('master') {
-  stage('Backup') {
+  stage('Backup Prod Env') {
       echo "nothing to compile for hello.sh..."
     }
   stage('Cleanup') {
