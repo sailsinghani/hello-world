@@ -19,5 +19,10 @@ stage('Deploy') {
 stage('Rest Testing') {
       echo "nothing to compile for hello.sh..."
     }
-
+stage('Integration Testing') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Upload to Nexus') {
+      echo "nothing to compile for hello.sh..."
+    }
 }
