@@ -28,7 +28,7 @@ stage('Integration Testing') {
 }
 */
 
-node('master') {
+/*node('master') {
   stage('cleanup') {
       echo "nothing to compile for hello.sh..."
     }
@@ -48,6 +48,31 @@ node('master') {
       echo "nothing to compile for hello.sh..."
     }
   stage('Upload to Ops Area') {
+      echo "nothing to compile for hello.sh..."
+    }
+}
+*/
+
+node('master') {
+  stage('Backup') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Cleanup') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Deploy') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Health Checks') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Integration Tests') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Revert -Restore to Original') {
+      echo "nothing to compile for hello.sh..."
+    }
+  stage('Notification') {
       echo "nothing to compile for hello.sh..."
     }
 }
