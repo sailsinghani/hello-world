@@ -16,5 +16,8 @@ stage('Code Coverage') {
 stage('Deploy') {
       echo "nothing to compile for hello.sh..."
     }
+stage('Rest Testing') {
+      echo "nothing to compile for hello.sh..."
+    }
 
 }
